@@ -1,0 +1,15 @@
+{
+    "appId": "com.conception-software.electronCourse",
+    "files": ["dist-electron", "dist-react"],
+    "icon": "./desktopIcon",
+    "mac": { 
+        "target": "dmg" 
+    },
+    "linux": { 
+        "target": "AppImage", 
+        "category": "Education" 
+    },
+    "win": { 
+        "target": ["msi", "portable"]
+     }
+}
