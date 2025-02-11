@@ -8,4 +8,9 @@ export default defineConfig({
   build: {
     outDir: 'dist-react',
   },
+  server: {
+    watch: {
+      usePolling: true
+    }
+  }
 })
